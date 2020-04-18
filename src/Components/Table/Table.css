@@ -1,0 +1,37 @@
+.Container {
+ width: 90%;
+ margin: 0 auto;
+}
+.Table{ 
+  margin-top: 30px;
+  margin-left: 30px;
+  /* padding: 10px; */
+  width: 95%;
+  text-align: center;
+  justify-content: center;
+  
+}
+th{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+th,
+td {
+  padding: 15px;
+}
+.btn-edit,
+.btn-delete{
+  font-size: 15px;
+  margin: 2px 3px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color:rgb(226, 213, 213);
+}
+.btn-edit {
+  background-color: rgb(11, 11, 139);
+}
+.btn-delete {
+  background-color: rgb(141, 6, 6);
+}
